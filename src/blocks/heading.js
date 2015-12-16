@@ -23,14 +23,14 @@ module.exports = Block.extend({
 
   textable: true,
 
-  scribeOptions: { 
+  scribeOptions: {
     allowBlockElements: false,
     tags: {
       p: false
     }
   },
 
-  icon_name: 'heading',
+  icon_name: 'ion-android-textsms',
 
   loadData: function(data){
     if (this.options.convertFromMarkdown && data.format !== "html") {

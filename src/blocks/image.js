@@ -11,7 +11,7 @@ module.exports = Block.extend({
   droppable: true,
   uploadable: true,
 
-  icon_name: 'image',
+  icon_name: 'ion-image',
 
   loadData: function(data){
     // Create our image tag
@@ -43,7 +43,7 @@ module.exports = Block.extend({
       this.editor.innerHTML = '';
       this.editor.appendChild(Dom.createElement('img', { src: urlAPI.createObjectURL(file) }));
       Dom.show(this.editor);
-      
+
       this.uploader(
         file,
         function(data) {

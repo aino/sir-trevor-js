@@ -18,7 +18,7 @@ module.exports = Block.extend({
 
   editorHTML: '<div class="st-required st-text-block" contenteditable="true"></div>',
 
-  icon_name: 'text',
+  icon_name: 'ion-android-create',
 
   textable: true,
 
@@ -27,7 +27,7 @@ module.exports = Block.extend({
     scribe.use(new ScribePastePlugin(this));
   },
 
-  scribeOptions: { 
+  scribeOptions: {
     allowBlockElements: true,
     tags: {
       p: true
