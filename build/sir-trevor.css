@@ -136,7 +136,6 @@
   position: absolute;
   text-align: left;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   outline: none;
   border: none;
@@ -169,7 +168,6 @@
     background-color: #0078FF; }
   .st-block--active .st-block-addition__button {
     -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
             transform: rotate(45deg); }
 
 .st-block-addition__button:after, .st-block-addition:before {
@@ -181,7 +179,6 @@
   -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 0;
   height: 0;
@@ -207,7 +204,6 @@
   opacity: .2;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%); }
 
 .st-block-addition:hover:before,
@@ -494,7 +490,6 @@ ul.st-text-block {
     border: 2px solid #0078FF;
     background: #fff;
     -webkit-transform: translateY(-50%) rotate(45deg);
-        -ms-transform: translateY(-50%) rotate(45deg);
             transform: translateY(-50%) rotate(45deg); }
 
 .st-block-positioner__inner {
@@ -604,7 +599,6 @@ ul.st-text-block {
     border: 2px solid #0078FF;
     background: #fff;
     -webkit-transform: translateY(-50%) rotate(45deg);
-        -ms-transform: translateY(-50%) rotate(45deg);
             transform: translateY(-50%) rotate(45deg); }
   .st-block__ui-delete-controls:before {
     left: auto;
